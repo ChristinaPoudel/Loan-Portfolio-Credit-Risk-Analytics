@@ -1,0 +1,78 @@
+
+LOAN PORTFOLIO & CREDIT RISK ANALYTICS
+Portfolio Insights Report
+
+IMPORTANT DATA NOTE
+This project uses synthetic educational data. The results demonstrate
+credit risk analysis techniques and do not represent actual Canadian
+borrowers, lenders, or lending activity.
+
+1. PORTFOLIO OVERVIEW
+
+- Total loans analyzed: 5,000
+- Total simulated defaults: 268
+- Simulated default rate: 5.36%
+- Total loan value: $98,147,350.90
+- Average loan amount: $19,629.47
+- Average credit score: 688.61
+- Average annual income: $65,769.70
+- Average debt-to-income ratio: 33.18%
+
+2. CREDIT SCORE RISK
+
+The below-600 credit score group has the highest simulated default
+rate at 17.39%.
+
+The 600-699 group has a simulated default rate of 6.38%.
+The 700-749 group has a rate of 2.73%.
+The 750-and-above group has the lowest rate at 1.26%.
+
+INSIGHT:
+In this synthetic dataset, lower credit scores are associated with
+higher simulated default rates. Credit score bands could be useful
+for further portfolio segmentation and risk analysis.
+
+3. LOAN PURPOSE RISK
+
+Small business loans have the highest simulated default rate at 10.00%.
+Education loans follow at 7.61%.
+Vehicle loans have the lowest rate among the listed purposes at 3.51%.
+
+INSIGHT:
+Simulated default rates vary by loan purpose. These differences could
+be explored further alongside loan size, income, and credit score.
+
+4. PROVINCIAL ANALYSIS
+
+New Brunswick has a simulated default rate of 7.22%.
+Saskatchewan follows at 6.57%.
+Ontario has a rate of 5.41% across 1,961 loans.
+Newfoundland and Labrador has the lowest rate at 3.13%, based on
+64 loans.
+
+INSIGHT:
+Provincial results vary, but sample sizes differ substantially.
+Rates from smaller groups should be interpreted cautiously and
+should not be treated as evidence about real provincial borrowers.
+
+5. RECOMMENDED POWER BI VISUALS
+
+- KPI cards: total loans, simulated defaults, simulated default rate,
+  and total loan value.
+- Bar chart: simulated default rate by credit score group.
+- Bar chart: simulated default rate by loan purpose.
+- Bar chart: simulated default rate by province.
+- Table: loan counts, defaults, and simulated default rates.
+- Scatter plot: credit score versus loan amount, with default status
+  used to distinguish records.
+
+6. CONCLUSION
+
+The SQL analysis identifies patterns across credit score groups,
+loan purposes, and provinces in the synthetic dataset. The results
+provide a foundation for an interactive Power BI dashboard and
+demonstrate a workflow using Python, SQLite, SQL, and Excel.
+
+All findings are descriptive and based on simulated data. They
+should not be interpreted as causal relationships or real-world
+credit risk estimates.
